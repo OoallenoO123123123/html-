@@ -1,0 +1,301 @@
+<html>
+    <head><title>明新科技大學資訊管理系</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            rtl: true
+        });
+    });
+</script>
+    <style>
+        *{
+            margin:0;
+            color:yellow;
+            font-size: 30px;
+            text-align:center;
+
+        }
+        /* top */
+        	.top{
+    background-color:pink;
+}
+.top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px;
+}
+.top .logo{
+    font-size: 30px;
+    justify-content:space-between;
+    color:#00AEAE;
+}
+.top .logo img{
+    width: 75px;
+    vertical-align: middle;
+}
+.top .top-nav{
+    font-size: 30px;
+    font-weight: bold;       
+}
+.top .top-nav a{
+    text-decoration: underline;
+    color:black;
+}.top .top-nav b{
+    text-decoration: overline;
+    color:red;
+}.top .top-nav c{
+    text-decoration: line-through;
+    color:green
+}
+
+        /* nav */
+        	.nav {
+ background-color:#D200D2;
+ display: flex;
+ justify-content: center;
+}
+ul {
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #FF8EFF; 
+}
+li {
+  float: left; 
+}
+li a {    
+  display: block;  
+  color: #28FF28;  
+  text-align: center;  
+  padding: 15px 20px;  
+  text-decoration: underline; 
+  letter-spacing: 0.75em
+}
+li a:hover {
+  background-color: #111;  
+}.dropdown:hover .dropdown-content {
+    display: block;   
+}
+li.dropdown:hover{
+    background-color: #333;  
+}
+.dropdown-content {  
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #FF359A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content b {
+    color: #F9F900;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content c {
+    color: #7D7DFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+        /* slider */
+        .slider{
+            background-color: black;
+            height:400px;
+        }
+        /* banner*/
+        .banner{
+            background-color:white;
+            height:400px;
+        }
+        .banner{
+    background-image: linear-gradient(#AE0000,#CE0000,#EA0000,#FF0000);
+    padding: 30px;
+    text-align:center;
+}
+.banner h1{
+    padding: 20px;
+}
+        /*faculty*/
+        .faculty {
+    display: block;
+    justify-content: center;
+    background-color:white;
+    padding:40px;
+}
+.faculty h2 {
+    font-size: 25px;
+    color: rgb(50,51,52);
+    padding-bottom:40px;
+}
+.faculty .container {
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.faculty .teacher{
+    /*border:1px solid blue;*/
+    display:block;
+    text-decoration: none;
+}
+.faculty .teacher img{
+    height: 200px;
+    width: 200px;
+}
+.faculty .teacher h3{
+    color: White;
+    background-color: rgba(39,40,34,500);
+    text-align: center;           
+}
+        	.contact {
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;                
+}
+.contact h2{
+    color: rgb(54, 82, 110);
+    font-size: 25px;
+}
+.contact .infos{
+    display:flex;
+    margin-top: 30px; 
+    justify-content: center;
+}
+.contact .infos .left{
+    display:block;
+    text-align: left;
+    margin-right: 30px;
+}
+.contact .infos .left b{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: bold;
+    color: Gray;
+    font-size: 18px;
+    line-height: 18px;
+}
+.contact .infos .left span{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(39,40,34,0.5);
+    font-size: 16px;
+    padding-left: 27px;
+}
+.contact .infos .right{
+    height: 200px;               
+}
+.contact .infos .right iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(39,40,34,0.50);
+}
+        /*footer*/
+        .footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25,26,30);
+    padding: 30px 0;
+}
+    </style>
+    </head>
+    <body>
+        <div class="top">
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fpokemon.wingzero.tw%2Fassets%2Fpokemon%2F132.png&tbnid=2suOIZ1sZ-avYM&vet=12ahUKEwizjOKjksGDAxWgnFYBHRnCA4gQMygIegQIARBl..i&imgrefurl=https%3A%2F%2Fpokemon.wingzero.tw%2Fpokedex%2Fgo%2F132%2Ftw&docid=bHBxDCUKwuj7nM&w=300&h=300&q=百變怪&client=safari&ved=2ahUKEwizjOKjksGDAxWgnFYBHRnCA4gQMygIegQIARBl">
+           獵殺小偷
+        </div>
+       <div class="top-nav">
+           <a href=>獵殺小偷</a>
+           <b href=>註冊</b>
+           <c href=>登入</c>
+       </div>
+    </div>
+</div>
+        <div class="nav">   
+    <ul>
+        <li><a href="#home">頭條</a></li>
+        <li><a href="#introduction">主角簡介</a></li>
+        <li  class="dropdown"><a href="#faculty">成員簡介</a>
+            <div class="dropdown-content">
+                <a href="#faculty">賴皮。慎奇羅</a>
+                <b href="#faculty">辛普森</b>
+                <c href="#faculty">煙雨九州</c>
+            </div>                       
+        </li>
+        <li><a href="#about">特別資訊</a></li>
+    </ul>
+        </div>
+        <div class="slider">
+            <div class="flexslider">
+        <ul class="slides">
+            <li><img src="https://upload.wikimedia.org/wikipedia/zh/thumb/e/ed/Bart_Simpson.svg/222px-Bart_Simpson.svg.png" /></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/zh/thumb/e/ec/Lisa_Simpson.png/200px-Lisa_Simpson.png" /></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/zh/thumb/9/9d/Maggie_Simpson.png/223px-Maggie_Simpson.png" /></li>
+        </ul>
+    </div>
+        </div>
+        <div class="banner" id="introduction">
+    <h1>榮譽榜</h1>
+    <h1>十年陪玩人氣第一：賴皮。慎奇羅</h1>
+    <h1>單月最高點單數：煙雨九州</h1>
+    <h1>單日衝分第一陪玩：辛普森</h1>
+</div>
+        <div class="faculty" id="faculty">
+    <h2>獵殺人員介紹</h2>
+    <div class="container">
+        <a class="teacher" href="">
+            <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/e/ed/Bart_Simpson.svg/222px-Bart_Simpson.svg.png" />
+            <h3>賴皮。慎奇羅</h3>
+        </a>
+        <a class="teacher" href="">
+            <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/e/ec/Lisa_Simpson.png/200px-Lisa_Simpson.png" />
+            <h3>辛普森</h3>
+       </a>
+       <a class="teacher" href="">
+           <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/9/9d/Maggie_Simpson.png/223px-Maggie_Simpson.png" />
+           <h3>煙雨九州</h3>
+       </a>        
+    </div>
+</div>
+        <div class="contact" id="about">
+  <h2>聯絡資訊</h2>
+  <div class="infos">
+    <div class="left">
+      <b>刀槍不入大樓</b>
+      <span>946西岸街區84巷1F</span>
+      <b> 電話:09-0383477</b>
+      <span>分機:1234、7654、0953</span>
+      <b> 傳真:08-9275477</b>
+      <span>分機:9643</span>
+    </div>
+    <div class="right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.185885150929!2d120.98912333466727!3d24.86332844316392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683154faa8283b%3A0x92cb1c5564a574ef!2z5piO5paw56eR5oqA5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1536665837954" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+        <div class="footer">
+    &copy;Copyright 2024 Department of Information Management, MUST. All rights reserved. 維護者 Hong Chen Zhi
+ </div>
+     </body>
+</html>
